@@ -3,10 +3,8 @@ password = input("Digite sua senha: ")
 passwordlenght = 0
 criptografia = []
 
-for caracteres in password:
-    passwordlenght += 1
+passwordlenght = len(password)
 
 criptografia = passwordlenght * '*'
 
 print(f"{username}'s password {criptografia} is {passwordlenght} characters long")
-
